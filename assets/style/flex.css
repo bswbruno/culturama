@@ -6,11 +6,24 @@
     column-gap: 33px;
 }
 
+.categorias__lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
 @media screen and (min-width:720px) {
 
     .menu {
     
     column-gap: 75px;
+}
+
+.categorias__lista {
+   
+    
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
 }
 
 }

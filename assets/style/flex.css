@@ -12,6 +12,29 @@
     row-gap: .5rem;
 }
 
+.destaques {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.destaques__barra {
+    flex-grow:1 ;
+}
+
+.eventos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+.eventos__item {
+    flex-grow: 1;
+    max-width: 400px;
+}
+
 @media screen and (min-width:720px) {
 
     .menu {
@@ -19,11 +42,14 @@
     column-gap: 75px;
 }
 
-.categorias__lista {
-   
+.categorias__lista {   
     
     flex-wrap: wrap;
     column-gap: 1.5rem;
+}
+
+.eventos__lista {
+    justify-content: end;
 }
 
 }
